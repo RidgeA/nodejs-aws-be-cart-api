@@ -1,0 +1,16 @@
+#exclude heaviest object in the universe
+node_modules
+
+#exclude e2e tests
+test
+
+#exclude unit tests
+**/*.spec.ts
+
+#no need to copy 'dist' directory into docker image
+dist
+
+#no need to copy these files into docker image
+Dockerfile
+README.md
+
